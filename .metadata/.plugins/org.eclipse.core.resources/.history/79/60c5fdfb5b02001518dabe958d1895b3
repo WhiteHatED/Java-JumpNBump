@@ -1,0 +1,6 @@
+
+public class BasicSwing extends JFrame{
+	public static void main(String[] args){
+		
+	}
+}

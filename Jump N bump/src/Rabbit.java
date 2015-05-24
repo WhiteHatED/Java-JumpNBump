@@ -15,6 +15,11 @@ public class Rabbit{
 	public static int[] spawnLocX = {0, 10, 20, 30};
 	public static int[] spawnLocY = {0, 10, 20, 30};
 	public int maximum = spawnLocX.length-1;
+	private String imageSrc = "src/images/WhiteRabbitw.png";
+	public static double aspectRatio = 1.5625;
+	private BufferedImage bi;
+	int cw, ch, winW, winH;
+	double w, h;
 	
 	int x,y,xVelocity,yVelocity;
 	public Rabbit(){
@@ -27,6 +32,7 @@ public class Rabbit{
 		int randomNum = i;
 		return randomNum;
 	}
+	
 	
 	public void respawn(){
 		if(spawnLocX.length != spawnLocY.length){

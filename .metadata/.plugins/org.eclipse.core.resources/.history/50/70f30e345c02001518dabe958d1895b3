@@ -1,0 +1,17 @@
+import javax.swing.JFrame;
+
+public class BasicSwing extends JFrame{
+	
+	JPanel panel = new JPanel();
+	
+	public static void main(String[] args){
+		BasicSwing frame = new BasicSwing();
+	}
+	
+	public BasicSwing(){
+		super("Basic Swing App");
+		setSize(400,300);
+		setResizable(true);
+		setVisible(true);
+	}
+}

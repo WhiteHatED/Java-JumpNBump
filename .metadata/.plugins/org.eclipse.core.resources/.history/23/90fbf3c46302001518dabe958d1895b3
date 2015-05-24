@@ -1,0 +1,13 @@
+import javax.swing.ImageIcon;
+import javax.swing.JButton;
+
+
+public class XOButton extends JButton{
+	ImageIcon X, O;
+	byte value=0;
+	
+	
+	public XOButton(){
+		
+	}
+}

@@ -1,0 +1,22 @@
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+public class BasicSwing extends JFrame{
+	
+	JPanel panel = new JPanel();
+	JButton button = new JButton();
+	
+	public static void main(String[] args){
+		BasicSwing frame = new BasicSwing();
+		frame.add(button);
+	}
+	
+	public BasicSwing(){
+		super("Basic Swing App");
+		setSize(400,300);
+		setResizable(true);
+		setVisible(true);
+		add(button);
+	}
+}

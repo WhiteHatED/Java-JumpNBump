@@ -1,0 +1,30 @@
+import java.awt.Graphics;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import javax.imageio.ImageIO;
+import javax.swing.JPanel;
+
+public class rabbit extends JPanel{
+	public int x,y;
+	private BufferedImage image;
+
+	public rabbit(int i, int j) {
+		x = i;
+		y = j;
+		try {                
+			image = ImageIO.read(new File("src/images/WhiteRabbitw.png"));
+		} catch (IOException ex) {
+			System.out.println("Rabbit image not found");
+		}
+	}
+
+	@Override
+	protected void paintComponent(Graphics g) {
+		super.paintComponent(g);
+		g.drawImage(image, x, y, x+10, y+10, null); // see javadoc for more info on the parameters            
+	}
+
+}

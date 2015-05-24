@@ -1,0 +1,27 @@
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+public class BasicSwing extends JFrame{
+	
+	JPanel panel = new JPanel();
+	JButton button = new JButton("Hello");
+	
+	public static void main(String[] args){
+		new BasicSwing();
+	}
+	
+	public BasicSwing(){
+		super("Basic Swing App");
+		setSize(400,300);
+		setResizable(true);
+		
+		
+		panel.add(button);
+		panel.setSize(10,);
+		panel.add(new rabbit(0, 0));
+		add(panel);
+		WhiteRabbitw.png
+		setVisible(true);
+	}
+}

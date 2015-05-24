@@ -2,7 +2,8 @@ import java.awt.Dimension;
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
-
+import javax.swing.JPanel;
+//Refractor MainWindow to JumpNBump after dev.
 public class MainWindow extends JFrame {
 	private static int NUMBER_OF_PLAYERS = 4;
 	private static void gameLoop(){
@@ -22,22 +23,22 @@ public class MainWindow extends JFrame {
 
 	
     public MainWindow() {
-
+    	super("Jump N Bump");
         initUI();
     }
 
     private void initUI() {
+    	
     	System.out.println("Starting up...");
         add(new Surface());
-  
-        setTitle("Simple Java 2D example");
-        setSize(800, 512);
-        setLocationRelativeTo(null);
         Rabbit n[] = new Rabbit[NUMBER_OF_PLAYERS];
         for(int i=0; i<NUMBER_OF_PLAYERS; i++){
         	System.out.println("Added rabbit");
-        	n[i] = new Rabbit();
 		}
+        setTitle("Jump N Bump");
+        setSize(800, 512);
+        setLocationRelativeTo(null);
+       
         
         
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

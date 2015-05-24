@@ -1,0 +1,29 @@
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.JTextArea;
+import javax.swing.JTextField;
+
+public class BasicSwing extends JFrame{
+	
+	JPanel panel = new JPanel();
+	JButton button = new JButton("Hello");
+	JTextField text = new JTextField("Hi",20);
+	JTextArea textArea = new JTextArea("How\n are\n you?", 20, 5);
+	
+	public static void main(String[] args){
+		new BasicSwing();
+	}
+	
+	public BasicSwing(){
+		super("Basic Swing App");
+		setSize(400,300);
+		setResizable(true);
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		panel.add(button);
+		panel.add(text);
+		panel.add(textArea);
+		add(panel);
+		setVisible(true);
+	}
+}

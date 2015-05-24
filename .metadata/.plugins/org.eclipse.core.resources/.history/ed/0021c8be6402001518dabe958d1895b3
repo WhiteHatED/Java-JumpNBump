@@ -1,0 +1,13 @@
+import javax.swing.ImageIcon;
+import javax.swing.JButton;
+
+
+public class XOButton extends JButton{
+	ImageIcon X, O;
+	byte value=0; //0 - nothing, 1 - X, 2 - O
+	
+	
+	public XOButton(){
+		X=new ImageIcon(this.getClass().getResource("WhiteRabbitw.png"));
+	}
+}

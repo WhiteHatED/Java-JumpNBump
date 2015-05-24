@@ -1,0 +1,8 @@
+
+public class TicTacToe {
+	JPanel p = new JPanel();
+	XOButton buttons[] = new XOButton[9];
+	public TicTacToe(){
+		
+	}
+}
