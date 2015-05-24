@@ -1,0 +1,34 @@
+
+public class Rabbit {
+	public Rabbit(){
+		int x;
+		int y;
+		int xVelocity;
+		int yVelocity;
+	}
+	
+	public void respawn(){
+		
+	}
+	
+	
+	
+	public Rabbit checkPlayerCollision(){
+		return Rabbit;
+	}
+	
+	public boolean checkCollisions(){
+
+	}
+
+	public void move(){
+		//if key _ move _
+		if(checkCollisions()){
+			//collide();
+			if(checkPlayerCollision() != null){
+				respawn();
+			}
+		}
+	}
+
+}

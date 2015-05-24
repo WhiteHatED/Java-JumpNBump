@@ -1,0 +1,40 @@
+import java.awt.EventQueue;
+import javax.swing.JFrame;
+
+
+public class Main extends JFrame{
+	
+
+	private static void gameLoop(){
+		//Network code
+		//rabbit.move();
+		//rabbit.collide()
+		//rabbit.playerCollide();
+	}
+	private static void engineLoop(){
+		
+	}
+	private static void drawLoop(){
+		
+	}
+	
+	private void initUI(){
+    	System.out.println("Starting up...");
+        window.add(new Background());
+
+        setTitle("Simple Java 2D example");
+        setSize(800, 512);
+        setLocationRelativeTo(null);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	}
+	
+	public void main(){
+		JFrame window = new JFrame();
+		initUI();
+		boolean active = true;
+		while(active){
+			gameLoop();
+			
+		}
+	}
+}

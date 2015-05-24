@@ -1,0 +1,23 @@
+
+public class Main {
+	
+
+	private static void gameLoop(){
+		
+	}
+	private static void engineLoop(){
+		
+	}
+	private static void drawLoop(){
+		
+	}
+	
+	
+	public void main(){
+		boolean active = true;
+		while(active){
+			gameLoop();
+			
+		}
+	}
+}

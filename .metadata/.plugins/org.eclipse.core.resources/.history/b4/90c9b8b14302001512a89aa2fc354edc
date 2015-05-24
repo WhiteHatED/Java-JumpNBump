@@ -1,0 +1,14 @@
+
+public class Rabbit {
+	public Rabbit(){
+		int x;
+		int y;
+		int xVelocity;
+		int yVelocity;
+	}
+	
+	public void respawn(){
+		
+	}
+
+}

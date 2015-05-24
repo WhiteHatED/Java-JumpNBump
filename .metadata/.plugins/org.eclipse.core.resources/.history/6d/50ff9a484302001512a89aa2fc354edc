@@ -1,0 +1,8 @@
+
+public class Rabbit {
+	public Rabbit(){
+		int x;
+		int y;
+	}
+
+}

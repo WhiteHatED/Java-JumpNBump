@@ -1,0 +1,30 @@
+
+public class Main {
+	
+
+	private static void gameLoop(){
+		//Network code
+		//rabbit.move();
+		//rabbit.collide()
+		//rabbit.playerCollide();
+	}
+	private static void engineLoop(){
+		
+	}
+	private static void drawLoop(){
+		
+	}
+	
+	private static void init(){
+		
+	}
+	
+	public void main(){
+		init();
+		boolean active = true;
+		while(active){
+			gameLoop();
+			
+		}
+	}
+}
