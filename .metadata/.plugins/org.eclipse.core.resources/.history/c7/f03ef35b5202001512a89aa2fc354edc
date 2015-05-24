@@ -22,6 +22,7 @@ public class Rabbit{
 	}
 	
 	public int randInt(){
+		System.out.println(maximum);
 		Random rn = new Random();
 		int i = Math.abs(rn.nextInt() % maximum);
 		int randomNum = i;
@@ -29,11 +30,8 @@ public class Rabbit{
 	}
 	
 	public void respawn(){
-		if(spawnLocX.length != spawnLocY.length){
-			System.out.println("Integer arrays spawnLocX and spawnLocY are not the same length");
-			System.exit(1);
-		}
 		int i = randInt();
+		System.out.println(x);
 		x = spawnLocX[i];
 		y = spawnLocY[i];
 		System.out.println(x+","+y);

@@ -14,7 +14,7 @@ import java.util.Random;
 public class Rabbit{
 	public static int[] spawnLocX = {0, 10, 20, 30};
 	public static int[] spawnLocY = {0, 10, 20, 30};
-	public int maximum = spawnLocX.length-1;
+	public int maximum = spawnLocX-1;
 	
 	int x,y,xVelocity,yVelocity;
 	public Rabbit(){
@@ -29,11 +29,8 @@ public class Rabbit{
 	}
 	
 	public void respawn(){
-		if(spawnLocX.length != spawnLocY.length){
-			System.out.println("Integer arrays spawnLocX and spawnLocY are not the same length");
-			System.exit(1);
-		}
 		int i = randInt();
+		System.out.println(x);
 		x = spawnLocX[i];
 		y = spawnLocY[i];
 		System.out.println(x+","+y);

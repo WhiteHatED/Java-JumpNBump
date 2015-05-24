@@ -12,9 +12,9 @@ import java.util.Random;
 
 
 public class Rabbit{
-	public static int[] spawnLocX = {0, 10, 20, 30};
-	public static int[] spawnLocY = {0, 10, 20, 30};
-	public int maximum = spawnLocX.length-1;
+	public int maximum = 2;
+	public static int[] spawnLocX = {0, 10, 20};
+	public static int[] spawnLocY = {0, 10, 20};
 	
 	int x,y,xVelocity,yVelocity;
 	public Rabbit(){
@@ -23,19 +23,15 @@ public class Rabbit{
 	
 	public int randInt(){
 		Random rn = new Random();
-		int i = Math.abs(rn.nextInt() % maximum);
+		int i = rn.nextInt() % maximum;
 		int randomNum = i;
 		return randomNum;
 	}
 	
 	public void respawn(){
-		if(spawnLocX.length != spawnLocY.length){
-			System.out.println("Integer arrays spawnLocX and spawnLocY are not the same length");
-			System.exit(1);
-		}
-		int i = randInt();
-		x = spawnLocX[i];
-		y = spawnLocY[i];
+		x = randInt();
+		x = spawnLocX[x];
+		y = spawnLocY[x];
 		System.out.println(x+","+y);
 		
 	}

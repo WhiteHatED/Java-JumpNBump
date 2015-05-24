@@ -29,10 +29,6 @@ public class Rabbit{
 	}
 	
 	public void respawn(){
-		if(spawnLocX.length != spawnLocY.length){
-			System.out.println("Integer arrays spawnLocX and spawnLocY are not the same length");
-			System.exit(1);
-		}
 		int i = randInt();
 		x = spawnLocX[i];
 		y = spawnLocY[i];
