@@ -1,0 +1,48 @@
+import java.awt.Graphics;
+import java.awt.Graphics2D;
+
+import javax.imageio.ImageIO;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
+
+public class Rabbit{
+	public static int[] spawnLocX = [0, 10, 20];
+	int x,y,xVelocity,yVelocity;
+	public Rabbit(){
+		respawn();
+	}
+	
+	public void respawn(){
+		x = spawnLocX[0];
+		y = spawnLocY[0];
+		System.out.println(x);
+		
+	}
+	
+	
+	
+	public Rabbit checkPlayerCollision(){
+		//Rabbit = Rabbit @ x, y
+		//return Rabbit;
+		return null;
+	}
+	
+	public boolean checkCollisions(){
+		return false;
+	}
+
+	public void move(){
+		//if key _ move _
+		if(checkCollisions()){
+			//collide();
+			if(checkPlayerCollision() != null){
+				respawn();
+			}
+		}
+	}
+
+}

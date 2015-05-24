@@ -4,8 +4,9 @@ import java.awt.EventQueue;
 import javax.swing.JFrame;
 
 public class MainWindow extends JFrame {
-
+	private static int NUMBER_OF_PLAYERS = 4;
 	private static void gameLoop(){
+		
 		//Network code
 		//rabbit.move();
 		//rabbit.collide()
@@ -32,6 +33,13 @@ public class MainWindow extends JFrame {
         setTitle("Simple Java 2D example");
         setSize(800, 512);
         setLocationRelativeTo(null);
+        Rabbit n[] = new Rabbit[NUMBER_OF_PLAYERS];
+        for(int i=0; i<NUMBER_OF_PLAYERS; i++){
+        	System.out.println("Added rabbit");
+        	n[i] = new Rabbit();
+		}
+        
+        
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 

@@ -1,17 +1,11 @@
-import java.awt.Dimension;
-import java.awt.EventQueue;
+
 import java.awt.Graphics;
 import java.awt.Graphics2D;
-import java.awt.Toolkit;
-
 import javax.imageio.ImageIO;
-import javax.swing.JFrame;
 import javax.swing.JPanel;
-
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
-import java.net.*;
 
 public class Surface extends JPanel{
 	public static double aspectRatio = 1.5625;

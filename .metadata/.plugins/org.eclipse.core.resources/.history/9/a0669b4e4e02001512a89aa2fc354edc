@@ -1,0 +1,79 @@
+import java.awt.Graphics;
+import java.awt.Graphics2D;
+
+import javax.imageio.ImageIO;
+import javax.swing.JFrame;
+
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
+
+public class Rabbit extends JFrame{
+	public Rabbit(){
+		int x;
+		int y;
+		int xVelocity;
+		int yVelocity;
+	}
+	int cw, ch, winW, winH;
+	double w, h;
+	private String imageSrc = "src/images/WhiteRabbitw.png";
+	public static double aspectRatio = 1.5625;
+	private BufferedImage bi;
+	
+    private void doDrawing(Graphics g) {
+    	try {
+            bi = ImageIO.read(new File(imageSrc));
+            w = this.getWidth();
+            h = this.getHeight();
+        } catch (IOException e) {
+        	System.out.println(System.getProperty("user.dir"));
+            System.out.println("Image could not be read");
+        }
+    	
+    	//Handles image scaling vertical and horizontal
+    	if(w > h*aspectRatio){
+    		w = h*aspectRatio;
+    	}else{
+    		h = w/aspectRatio;
+    	}
+        Graphics2D g2d = (Graphics2D) g;
+        System.out.println((double)this.getWidth()/(double)this.getHeight());
+        g2d.drawImage(bi, 0, 0, (int)w, (int)h, null);
+    }
+
+    @Override
+    public void paintComponent(Graphics g) {
+    	System.out.println("Painting components");
+        super.paintComponent(g);
+        doDrawing(g);
+    }
+	
+	
+	public void respawn(){
+		
+	}
+	
+	
+	
+	public Rabbit checkPlayerCollision(){
+		//Rabbit = Rabbit @ x, y
+		//return Rabbit;
+		return null;
+	}
+	
+	public boolean checkCollisions(){
+		return false;
+	}
+
+	public void move(){
+		//if key _ move _
+		if(checkCollisions()){
+			//collide();
+			if(checkPlayerCollision() != null){
+				respawn();
+			}
+		}
+	}
+
+}
