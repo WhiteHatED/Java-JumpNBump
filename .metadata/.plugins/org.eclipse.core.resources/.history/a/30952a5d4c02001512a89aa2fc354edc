@@ -31,12 +31,10 @@ public class Surface extends JPanel{
         	System.out.println(System.getProperty("user.dir"));
             System.out.println("Image could not be read");
         }
-    	
-    	//Handles image scaling vertical and horizontal
-    	if(w > h*aspectRatio){
+    	if(w > h){
     		w = h*aspectRatio;
     	}else{
-    		h = w/aspectRatio;
+    		h = w*aspectRatio;
     	}
         Graphics2D g2d = (Graphics2D) g;
         System.out.println((double)this.getWidth()/(double)this.getHeight());

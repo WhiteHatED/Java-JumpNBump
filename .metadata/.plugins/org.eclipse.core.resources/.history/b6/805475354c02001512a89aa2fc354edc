@@ -52,6 +52,7 @@ public class MainWindow extends JFrame {
     	ex = new MainWindow();
     	ex.setVisible(true);
     	ex.setPreferredSize(new Dimension(800, 512));
+    	ex.set
     }
 }
 
