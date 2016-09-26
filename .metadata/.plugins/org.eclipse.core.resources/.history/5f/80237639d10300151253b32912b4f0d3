@@ -23,8 +23,12 @@ public class MainWindow extends JFrame {
 
 	
     public MainWindow() {
-    	//User grid layout.
     	super("Jump N Bump");
+        initUI();
+    }
+
+    private void initUI() {
+    	
     	System.out.println("Starting up...");
         add(new Surface());
         Rabbit n[] = new Rabbit[NUMBER_OF_PLAYERS];
@@ -40,10 +44,17 @@ public class MainWindow extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 
-
     public static void main(String[] args) {
     	run();
+    	/*
+        EventQueue.invokeLater(new Runnable() {
 
+            @Override
+            public void run() {
+            	MainWindow ex = new MainWindow();
+                ex.setVisible(true);
+            }
+        });*/
     }
     public static MainWindow ex;
     public static void run(){

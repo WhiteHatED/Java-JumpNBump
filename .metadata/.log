@@ -115,3 +115,126 @@ java.lang.ClassCastException: org.eclipse.osgi.internal.framework.EquinoxConfigu
 
 !ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-24 16:24:50.915
 !MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-24 17:44:02.855
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-24 17:44:02.856
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+!SESSION 2015-05-26 12:52:23.785 -----------------------------------------------
+eclipse.buildId=4.4.1.M20140925-0400
+java.version=1.7.0_71
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/Hulto/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/Hulto/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.m2e.logback.configuration 2 0 2015-05-26 12:52:29.078
+!MESSAGE Exception while setting up logging:org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+!STACK 0
+java.lang.ClassCastException: org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+	at org.eclipse.m2e.logback.configuration.LogHelper.logJavaProperties(LogHelper.java:26)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.loadConfiguration(LogPlugin.java:189)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.configureLogback(LogPlugin.java:144)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.access$2(LogPlugin.java:107)
+	at org.eclipse.m2e.logback.configuration.LogPlugin$1.run(LogPlugin.java:62)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-26 12:52:32.901
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-26 12:52:32.903
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY org.eclipse.core.net 1 0 2015-05-26 12:52:33.183
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-26 12:52:39.309
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-26 12:52:39.312
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-26 12:53:50.088
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-26 12:53:50.089
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+!SESSION 2015-05-26 12:59:39.372 -----------------------------------------------
+eclipse.buildId=4.4.1.M20140925-0400
+java.version=1.7.0_71
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/Hulto/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/Hulto/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.m2e.logback.configuration 2 0 2015-05-26 12:59:45.432
+!MESSAGE Exception while setting up logging:org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+!STACK 0
+java.lang.ClassCastException: org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+	at org.eclipse.m2e.logback.configuration.LogHelper.logJavaProperties(LogHelper.java:26)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.loadConfiguration(LogPlugin.java:189)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.configureLogback(LogPlugin.java:144)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.access$2(LogPlugin.java:107)
+	at org.eclipse.m2e.logback.configuration.LogPlugin$1.run(LogPlugin.java:62)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-26 12:59:49.344
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-26 12:59:49.346
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY org.eclipse.core.net 1 0 2015-05-26 12:59:49.596
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-26 12:59:55.042
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-26 12:59:55.045
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-26 13:03:20.748
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-26 13:03:20.749
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+!SESSION 2015-05-27 10:51:40.679 -----------------------------------------------
+eclipse.buildId=4.4.1.M20140925-0400
+java.version=1.7.0_71
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/Hulto/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/Hulto/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.m2e.logback.configuration 2 0 2015-05-27 10:51:48.414
+!MESSAGE Exception while setting up logging:org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+!STACK 0
+java.lang.ClassCastException: org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+	at org.eclipse.m2e.logback.configuration.LogHelper.logJavaProperties(LogHelper.java:26)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.loadConfiguration(LogPlugin.java:189)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.configureLogback(LogPlugin.java:144)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.access$2(LogPlugin.java:107)
+	at org.eclipse.m2e.logback.configuration.LogPlugin$1.run(LogPlugin.java:62)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-27 10:51:52.522
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-27 10:51:52.524
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-27 10:51:58.631
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-27 10:51:58.639
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-27 10:52:04.225
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-27 10:52:04.227
+!MESSAGE unexpected method call (NullSarosSession.java:64)

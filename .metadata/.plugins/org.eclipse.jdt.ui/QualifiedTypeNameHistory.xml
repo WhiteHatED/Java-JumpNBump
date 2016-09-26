@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="java.awt.Dimension"/>
-<fullyQualifiedTypeName name="javax.swing.JFrame"/>
 <fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="javax.swing.JFrame"/>
+<fullyQualifiedTypeName name="javax.swing.JTextField"/>
+<fullyQualifiedTypeName name="javax.swing.JTextArea"/>
+<fullyQualifiedTypeName name="javax.swing.JLabel"/>
+<fullyQualifiedTypeName name="javax.swing.JComboBox"/>
 <fullyQualifiedTypeName name="javax.swing.JPanel"/>
+<fullyQualifiedTypeName name="java.awt.GridLayout"/>
+<fullyQualifiedTypeName name="javax.swing.JButton"/>
+<fullyQualifiedTypeName name="javax.swing.ImageIcon"/>
+<fullyQualifiedTypeName name="java.awt.Event"/>
+<fullyQualifiedTypeName name="java.awt.event.ActionEvent"/>
 </qualifiedTypeNameHistroy>
